@@ -23,7 +23,13 @@ const getNonce = async (privateKeys) => {
             zkSyncProvider,
             ethProvider
         );
+        console.log(`查询中 Querying Address:${address}...`);
         const [lite, era] = await Promise.all([syncWallet.getNonce(), zkSyncWallet.getNonce()])
+        console.table([{
+            address,
+            zksync_lite_nonce: lite,
+            zksync_era_nonce: era,
+        }]);
         lists.push({
             account: address,
             zksync_lite_nonce: lite,

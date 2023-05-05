@@ -16,7 +16,7 @@ export function readAccounts() {
             const filePath = basePath + '/' + element
             const file = fs.readFileSync(filePath, 'utf-8')
             const regex = /\/\/.*$|\/\*[\s\S]*?\*\//gm;
-            const data = file.replace(regex, '').replace(/\s+/g, '').replace(/,(?=[^,]*$)/, '')
+            const data = file.replace(regex, '').replace(/\s+/g, '').replace(/,(?=\s*?[\]}])/g, '');
             const arr = JSON.parse(data)
             accounts.push(...arr)
         }
