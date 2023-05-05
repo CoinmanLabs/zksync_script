@@ -28,4 +28,4 @@
       - zksync lite网络 批量自己给自己转账，刷交互次数运行命令： `npm run zksync-era-transfer`
       - zksync lite网络 批量跨链(eth网络=>zksync lite网络)运行命令： `npm run zksync-lite-bridge`
       - zksync lite网络 批量mint nft 运行命令： `npm run zksync-lite-mint-nft`
-      - zksync lite网络 查看每个钱包的交互次数(nonce)运行命令, `npm run zksync-era-lite-nonce`
+      - zksync lite网络和era网络 查看每个钱包的交互次数(nonce)运行命令, `npm run zksync-era-lite-nonce`
