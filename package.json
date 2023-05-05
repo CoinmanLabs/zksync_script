@@ -1,0 +1,30 @@
+{
+  "name": "auto_script",
+  "version": "1.0.0",
+  "description": "ZkSync [Era、Lite]网络批量刷空投脚本",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "zksync-era-transfer": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/zkSyncEra/transfer.js",
+    "zksync-era-bridge": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/zkSyncEra/mainnet2era.js",
+    "zksync-era-mint-nft": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/zkSyncEra/mintSquare/index.js",
+    "zksync-lite-transfer": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/zkSyncLite/transfer.js",
+    "zksync-lite-bridge": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/zkSyncLite/mainnet2era.js",
+    "zksync-lite-mint-nft": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/zkSyncLite/mintNft.js",
+    "create-wallet": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./libs/createWallet.js",
+    "zksync-era-lite-nonce": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/getEraAndLiteNonce.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "web3": "^1.9.0",
+    "web3-utils": "^1.9.0",
+    "zksync": "^0.13.1",
+    "zksync-web3js": "0.14.4"
+  }
+}
