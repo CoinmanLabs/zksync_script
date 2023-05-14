@@ -26,6 +26,6 @@
     "web3": "^1.9.0",
     "web3-utils": "^1.9.0",
     "zksync": "^0.13.1",
-    "zksync-web3js": "0.14.7"
+    "zksync-web3js": "0.14.8"
   }
 }
