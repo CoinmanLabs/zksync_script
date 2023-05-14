@@ -9,6 +9,7 @@
 ## Script Capabilities
 
 - [√] Batch account creation
+- [√] Batch deployment of contracts
 - [√] Batch transfer to on-chain wallet using OKX exchange
 - [√] Batch transfer on zksync lite network
 - [√] Batch mint NFT on zksync lite network
