@@ -9,7 +9,9 @@ export const createWalletNumber = 5;
  * 如果需要批量从OKX提现到accounts文件夹下的钱包账户，则需要配置API密钥和API密钥密码
  */
 export const OKX_API_KEY = 'xxx'
+
 export const OKX_SECRET_KEY = 'xxx'
+
 export const OKX_PASS_PHRASE = 'xxx'
 
 
