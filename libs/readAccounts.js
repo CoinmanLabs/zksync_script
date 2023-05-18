@@ -23,4 +23,5 @@ export function readAccounts() {
     }
     return accounts;
 }
+
 export default readAccounts;

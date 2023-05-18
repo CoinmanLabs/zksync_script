@@ -6,6 +6,7 @@ import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
 
 const keys = [] //  Keys
 
+
 // An example of a deploy script that will deploy and call a simple contract.
 export default async function (hre: HardhatRuntimeEnvironment) {
     for (let index = 0; index < keys.length; index++) {

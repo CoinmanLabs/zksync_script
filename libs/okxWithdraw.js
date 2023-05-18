@@ -3,6 +3,7 @@ import axios from "axios";
 import dotenv from "dotenv";
 import { readAccounts } from './readAccounts.js';
 import { OKX_API_KEY, OKX_SECRET_KEY, OKX_PASS_PHRASE } from '../config/index.js'
+
 dotenv.config();
 
 const apiKey = process.env.OKX_API_KEY ?? OKX_API_KEY;

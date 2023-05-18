@@ -5,6 +5,7 @@ import { zksyncLiteTransferNumber } from '../../config/index.js'
 
 
 export const transfer = async ({ privateKey, amount, tokenSymbol = 'ETH', recipientAddress }) => {
+    
     try {
         const syncProvider = await zksync.getDefaultProvider('mainnet');
         const ethersProvider = await ethers.getDefaultProvider('mainnet')

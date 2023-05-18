@@ -10,6 +10,7 @@ const zkSyncProvider = new zksync.Provider('https://mainnet.era.zksync.io');
 const ethProvider = ethers.getDefaultProvider('mainnet');
 
 export const web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.era.zksync.io'))
+
 export const mint = async (privateKey, cid) => {
     try {
         new zksync.Wallet(privateKey, zkSyncProvider, ethProvider);

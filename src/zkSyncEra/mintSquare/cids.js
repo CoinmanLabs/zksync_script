@@ -98,4 +98,5 @@ export const cids = [
   { "CID": "QmQhL2dufq5ShPdaUydfsHjbZmLBJMWy56MstRb1g3TRW3", "index": 96 },
   { "CID": "Qmd9dzqzvwKr2VvkGfficRmSzKXskVwqvaHiMmVRAeKapB", "index": 97 }
 ]
+
 export default cids;

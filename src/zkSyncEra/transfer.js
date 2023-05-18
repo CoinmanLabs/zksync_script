@@ -35,6 +35,7 @@ export async function transfer({
   } catch (error) {
     console.log("transfer failed...", error);
   }
+
 }
 
 const main = async (privateKeys, amount) => {
@@ -51,4 +52,6 @@ const main = async (privateKeys, amount) => {
 };
 
 main(privates, zksyncEraTransferNumber[1])
+
+
 export default main;

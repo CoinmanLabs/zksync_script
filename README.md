@@ -22,6 +22,7 @@
 
 ## 运行步骤
 
+
 1. 根据系统进行下载安装 Node，自行搜索教程安装 (https://nodejs.cn/download/)
 2. 下载/拉取代码,并且解压<img src="./pull_code.jpg"></img>
 3. 打开终端(命令行)窗口，如果不会看教程

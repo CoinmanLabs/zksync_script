@@ -38,6 +38,7 @@
    - zksync lite and era network, view the interaction times (nonce) of each wallet, run command: `npm run zksync-era-lite-nonce`
 
 
+
 ## The strongest zkSync interaction strategy on the entire network (with wool pulling tools and wool pulling scripts attached)
 let's do it! As a senior practitioner, I have participated in P2P high-interest investments, stock IPOs, and other activities. Compared with Bitcoin and other digital currencies, these investments have lower returns or higher thresholds. Three years ago, I joined the Defi field and obtained good investment returns through participation in airdrops and other methods. This made me more determined to support early projects in the digital currency field and become a "wool puller".
 

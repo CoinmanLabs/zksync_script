@@ -7,6 +7,7 @@ const syncProvider = await zksync.getDefaultProvider('mainnet');
 const ethersProvider = await ethers.getDefaultProvider('mainnet')
 
 const zkSyncProvider = new zksyncWeb.Provider('https://mainnet.era.zksync.io');
+
 const ethProvider = ethers.getDefaultProvider('mainnet');
 
 

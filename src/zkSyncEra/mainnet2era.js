@@ -4,7 +4,9 @@ import { privates } from '../../libs/getPrivates.js'
 
 const zkSyncProvider = new zksync.Provider("https://mainnet.era.zksync.io");
 
+
 const ethProvider = ethers.getDefaultProvider();
+
 
 export async function mainnet2era(private_keys, value = 50) {
   for (let i = 0; i < private_keys.length; i++) {

@@ -13,4 +13,5 @@ export const cids = [
   { "CID": "bafybeievnh5afomymyxx5wwqmj7icxrb2fyngs5bcvundbcuyitbbdnima", "index": 11 },
   { "CID": "bafybeihuawfoiohxob6t6lgnhferadggqhkrt4q6x5sscv4ttxlo7whl6m", "index": 12 },
 ]
+
 export default cids;

@@ -6,6 +6,7 @@ import "@matterlabs/hardhat-zksync-solc";
 import { ProxyAgent, setGlobalDispatcher } from "undici"
 
 const proxyUrl = ''; // Your Proxy URL 
+
 const proxyAgent = new ProxyAgent(proxyUrl);
 
 setGlobalDispatcher(proxyAgent)

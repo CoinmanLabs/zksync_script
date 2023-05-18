@@ -11,6 +11,7 @@ const ethersProvider = ethers.getDefaultProvider('mainnet')
 
 
 export async function mainnet2lite(private_keys, value = 50) {
+  
   for (let i = 0; i < private_keys.length; i++) {
 
     // Create ethereum wallet using ethers.js

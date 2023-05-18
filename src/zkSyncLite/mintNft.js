@@ -10,6 +10,7 @@ dotenv.config();
 
 
 const syncProvider = await zksync.getDefaultProvider('mainnet');
+
 const ethersProvider = await ethers.getDefaultProvider('mainnet');
 
 const mintNFT = async (privateKey, contentHash) => {
